@@ -43,7 +43,7 @@ public class RootConfig
 		dataSource.setUsername(prop.getProperty("username"));
 		dataSource.setPassword(prop.getProperty("password"));*/
 		
-		
+		System.out.println("hello");
 		BasicDataSource dataSource=new BasicDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/OnlineShop");
